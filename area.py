@@ -1171,9 +1171,7 @@ print(content_list)
 with open("First.py" ) as f:
     content_list = [ line.rstrip() for line in f]
 print(content_list)
-'''    
-    
-'''   
+--------------------
 from shutil import copyfiles
 
 copyfile("/Guddu/First.py" , "/Guddu/2nd.py")

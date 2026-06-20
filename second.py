@@ -1,16 +1,16 @@
-a = "31.2"
-b =  float (a)
-t = type (b)
-print (t)
+A = "31.2"
+b =  float (A)
+type_test = type (b)
+print (type_test)
 
 
 #input function
 a = input("enter number 1 : ")
 b = input("enter number 2 : ")
 
-print ("number a is : ", a )
+print ("number A is : ", A )
 print ("number b is : ", b )
-print ("sum is ", a+b )
+print ("sum is ", A+b )
 
 # Python Program to calculate the square root
 
