@@ -5,9 +5,9 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     strategy:
       fail-fast: false
-      timeout-minutes: 30
       matrix:
         python-version: ["3.8", "3.9", "3.10"]
     steps:
